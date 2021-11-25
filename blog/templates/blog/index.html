@@ -1,0 +1,195 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>landing</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'css/style.css'%}">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="top">
+				<a href="#">
+					<img src="{% static 'img/logo.svg' %}"alt="logo">
+				</a>
+				<ul class="menu">
+					<li>
+						<a href="#">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Product
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Pricing
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							About
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Contact
+						</a>
+					</li>
+					<li>
+						<a href="{% url 'crm' %}">
+							Comment
+						</a>
+					</li>
+				</ul>
+					<figure class="email">
+					<input type="email"  placeholder="Your Email" class="input">
+					<input type="submit" value="Subsribe">
+					</figure>
+			</nav>
+		</div>	
+	</header>
+	<main class="main">
+		<!-- Первый блок -->
+		<section class="one">
+			<!-- Текст -->
+			<h1>At your fingertips</h1>
+			<h2>Lightning fast prototyping </h2>
+			<h3>Most calendars are designed for teams. Slate is designed for freelancers</h3>
+			<!-- Кнопка "Try For Free" -->
+			<button class=big>
+				Try For Free
+			</button>
+			<!-- Ноутбук -->
+			<img src="{% static 'img/macbook.svg' %}" alt="macbook">
+		</section>
+		<!-- Второй блок -->
+		<section class="two">
+			<h1>At your fingertips</h1>
+			<h2>Features</h2>
+			<h3>Most calendars are designed for teams.Slate is designed for freelancers</h3>
+			<!-- Блок с браучером и ячейками -->
+			<figure class="blok">
+				<img src="{% static 'img/browser.svg' %}" alt="browser" class="brower">
+				<!-- Ячейки -->
+				<figure class="lock">
+					<figure class="yach">
+						<!-- Заголовок -->
+						<figure class="name">
+							<img src="{% static 'img/badge.svg' %}" alt="badge">
+							<h1>At your fingertips</h1>
+						</figure>
+						<p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+					</figure>
+					<figure class="yach">
+						<!-- Заголовок -->
+						<figure class="name">
+							<img src="{% static 'img/badge.svg' %}" alt="badge">
+							<h1>At your fingertips</h1>
+						</figure>
+						<p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+					</figure>
+				</figure>
+			</figure>
+		</section>
+		<!-- Третий блок -->
+		<section class="three">
+			<!-- Текст -->
+			<h1>At your fingertips</h1>
+			<h2>Lightning fast prototyping </h2>
+			<h3>Most calendars are designed for teams. Slate is designed for freelancers</h3>
+			<figure class="buttons">
+				<button class="but_one">
+					Buy now
+				</button>
+				<button class="but_two">
+					Try For Free
+				</button>
+			</figure>
+		</section>
+		<section class="four">
+			<img src="{% static 'img/mail.svg' %}" alt="mail">
+			<figure class="all">
+				<h1>At your fingertips</h1>
+				<h2>Lightning fast prototyping </h2>
+				<figure class="sub">
+					<h1>Subscribe to our Newsletter</h1>
+					<p>Available exclusivery on Figmaland</p>
+					<figure class="email">
+						<input type="email" name="email" placeholder="Your Email" class="in">
+						<input type="submit" value="Subsribe">
+					</figure>
+				</figure>
+			</figure>
+		</section>
+		<section class="five">
+			<h2>Partners</h2>
+			<h1>Most calendars are designed for teams. Slate is designed for freelancers</h1>
+			<figure class="pic">
+				<img src="{% static 'img/appstore.svg' %}" alt="appstore">
+				<img src="{% static 'img/apiary.svg' %}" alt="apiary">
+				<img src="{% static 'img/android.svg' %}" alt="android">
+				<img src="{% static 'img/basecamp.svg' %}" alt="basecamp">
+				<img src="{% static 'img/airbnb.svg' %}" alt="airbnb">
+				<img src="{% static 'img/ibm.svg' %}" alt="ibm">	
+			</figure>
+		</section>
+	</main>
+	<footer class="footer">
+		<table class="links">
+			<tbody>
+				<tr>
+					<td><h1>Pages</h1></td>
+					<td><h1>Tomothy</h1></td>
+					<td><h1>Jane Black</h1></td>
+				</tr>
+				<tr>
+					<td><p><a href="#">Home</a></p></td>
+					<td><p><a href="#">Eleanor Edwards</a></p></td>
+					<td><p><a href="#">Philip Jones</a></p></td>
+				</tr>
+				<tr>
+					<td><p><a href="#">Product</a></p></td>
+					<td><p><a href="#">Ted Robertson</a></p></td>
+					<td><p><a href="#">Product</a></p></td>
+				</tr>
+				<tr>
+					<td><p><a href="#">Pricing</a></p></td>
+					<td><p><a href="#">Annette Russell</a></p></td>
+					<td><p><a href="#">Colleen Russell</a></p></td>
+				</tr>
+				<tr>
+					<td><p><a href="#">About</a></p></td>
+					<td><p><a href="#">Jennie Mckinney</a></p></td>
+					<td><p><a href="#">Marvin Hawkins</a></p></td>
+				</tr>
+				<tr>
+					<td><p><a href="#">Contact</a></p></td>
+					<td><p><a href="#">Gloria Richards</a></p></td>
+					<td><p><a href="#">Bruce Simmmons</a></p></td>
+				</tr>
+			</tbody>
+		</table>
+		<figure class="cop">
+			<figure class="log">
+				<img src="{% static 'img/twitter.svg' %}" alt="twitter">
+				<img src="{% static 'img/facebook.svg' %}" alt="facebook">
+				<img src="{% static 'img/linkedin.svg' %}" alt="linkedin">
+			</figure>
+			<figure class="sub">
+					<h1>Subscribe to our Newsletter</h1>
+					<p>Available exclusivery on Figmaland</p>
+					<figure class="em">
+						<input type="email" name="email" placeholder="Your Email" class="inm">
+						<input type="submit" value="Subsribe" class="st">
+					</figure>
+				</figure>
+		</figure>
+	</footer>
+</body>
+</html>

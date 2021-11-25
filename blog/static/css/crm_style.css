@@ -1,0 +1,23 @@
+
+.cl {
+    max-width: 205px;
+    padding: 30px;
+    color: #000;
+    text-align: center;
+}
+
+button {
+    padding: 10px 40px;
+    background: rgb(84, 164, 255);
+    outline:  none;
+    border: none;
+    color: #fff;
+}
+
+input {
+    padding: 10px 40px;    
+}
+
+body .cl {
+    margin: 0 auto;
+}
